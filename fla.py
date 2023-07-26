@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def root():
-    return "welcome to python flask appi v1"
+    return "welcome to python flask app v2"
 
 
 # run the application
